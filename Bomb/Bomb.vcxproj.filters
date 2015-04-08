@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="框架">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="框架\输出">
+      <UniqueIdentifier>{5118c83d-e04a-429f-977f-1a72c3d6755f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="框架\输入">
+      <UniqueIdentifier>{c698a081-a9d8-4526-8aa3-caea69ef4812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="框架\场景">
+      <UniqueIdentifier>{bc64c5ec-5432-46c7-b4da-ebc0aa162037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="框架\场景\控件父类">
+      <UniqueIdentifier>{6b327b02-c9c1-47f4-bf9c-7fd44c7add46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="框架\场景\控件父类\单色按扭">
+      <UniqueIdentifier>{7f12c122-b17c-47b4-b756-2c58e2a7bc4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="框架\场景\控件父类\按钮">
+      <UniqueIdentifier>{464e2863-6927-42bc-9c89-5f1d1cacca1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="框架\场景\控件父类\滑条">
+      <UniqueIdentifier>{39d66458-d4a1-43af-ba01-dcaf2b7300dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="入口">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="游戏">
+      <UniqueIdentifier>{61f841bb-5e7e-41f9-aff5-bfd8bd381750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏\LOGO">
+      <UniqueIdentifier>{d46192b8-7498-4bd5-8324-cd110d650291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏\帮助">
+      <UniqueIdentifier>{ae3b12b6-42c3-4d66-8e69-832503c578f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏\开始">
+      <UniqueIdentifier>{0b4f4d76-e2da-42e5-877d-49743cecbc2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏\游戏">
+      <UniqueIdentifier>{ea435d60-e09e-41cf-8166-9584f694b17b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏数据">
+      <UniqueIdentifier>{6590ef73-7591-4ac5-9289-6b89f3570474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="音乐">
+      <UniqueIdentifier>{07ab22ec-e958-4011-8914-a2fefb2fed17}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameFrame.cpp">
+      <Filter>框架</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOutput.cpp">
+      <Filter>框架\输出</Filter>
+    </ClCompile>
+    <ClCompile Include="CPGameInput.cpp">
+      <Filter>框架\输入</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInput.cpp">
+      <Filter>框架\输入</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>框架\场景</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>框架\场景\控件父类</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorButton.cpp">
+      <Filter>框架\场景\控件父类\单色按扭</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>框架\场景\控件父类\按钮</Filter>
+    </ClCompile>
+    <ClCompile Include="Slider.cpp">
+      <Filter>框架\场景\控件父类\滑条</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>入口</Filter>
+    </ClCompile>
+    <ClCompile Include="logo.cpp">
+      <Filter>游戏\LOGO</Filter>
+    </ClCompile>
+    <ClCompile Include="bangzhu.cpp">
+      <Filter>游戏\帮助</Filter>
+    </ClCompile>
+    <ClCompile Include="kaishi.cpp">
+      <Filter>游戏\开始</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>游戏\游戏</Filter>
+    </ClCompile>
+    <ClCompile Include="sound\SoundManage.cpp">
+      <Filter>音乐</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameFrame.h">
+      <Filter>框架</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOutput.h">
+      <Filter>框架\输出</Filter>
+    </ClInclude>
+    <ClInclude Include="CPGameInput.h">
+      <Filter>框架\输入</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInput.h">
+      <Filter>框架\输入</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>框架\场景</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>框架\场景\控件父类</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorButton.h">
+      <Filter>框架\场景\控件父类\单色按扭</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>框架\场景\控件父类\按钮</Filter>
+    </ClInclude>
+    <ClInclude Include="Slider.h">
+      <Filter>框架\场景\控件父类\滑条</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="logo.h">
+      <Filter>游戏\LOGO</Filter>
+    </ClInclude>
+    <ClInclude Include="bangzhu.h">
+      <Filter>游戏\帮助</Filter>
+    </ClInclude>
+    <ClInclude Include="kaishi.h">
+      <Filter>游戏\开始</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>游戏\游戏</Filter>
+    </ClInclude>
+    <ClInclude Include="gongxiang.h">
+      <Filter>游戏数据</Filter>
+    </ClInclude>
+    <ClInclude Include="sound\soundmanage.h">
+      <Filter>音乐</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bmp\bm.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Bomb.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
